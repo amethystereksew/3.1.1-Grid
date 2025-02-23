@@ -143,19 +143,27 @@ footer{
     margin: 8rem 0 0 0;
 }
 
-.aside-panel{
+.aside-panel {
     width: 20%;
-    background-color:#ffafcc;
+    background-color: #ffafcc;
     border-radius: 10px;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    align-items: center; /* Centra las palabras en el aside panel */
 }
 
-.aside-panel h2{
+.aside-panel h2 {
     padding: 2rem 0 0.5rem 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff; /* Línea que divide las palabras */
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-align: center; /* Centra el texto */
+}
+
+.aside-panel h2:hover {
+    transform: scale(1.1); /* Hace que el texto sobresalga */
+    color: #fff; /* Cambia el color del texto al resaltar */
 }
 
 .blog-container{
@@ -229,3 +237,4 @@ footer{
 
 .footer-links img{
     width: 2rem;
+}
