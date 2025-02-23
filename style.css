@@ -24,7 +24,6 @@ header{
 }
 
 main{
-    display: flex;
     padding: 3rem;
 }
 
@@ -97,6 +96,10 @@ footer{
 .logo-container img{
     width: 100%;
     border-radius: 100%;
+}
+
+.home-container{
+    display: flex;
 }
 
 .card-container{
